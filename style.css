@@ -1,0 +1,125 @@
+/* CSS for the entire page */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Caveat', cursive;
+	background-color: #ff0040;
+	background-image: url("https://i.imgur.com/BbxYZFg.png");
+	background-repeat: repeat;
+	background-size: auto;
+	background-position: center;
+}
+
+/* CSS for the main content container */
+.container {
+	max-inline-size: 800px;
+	margin: auto;
+	padding: 30px;
+	text-align: center;
+	background-color: #ffc3f0;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS for the main title */
+h1 {
+	font-size: 72px;
+	margin: 0;
+	font-family: 'Caveat', cursive;
+	text-transform: uppercase;
+	color: #000000;
+	text-shadow: 2px 2px #000000;
+	letter-spacing: 10px;
+	line-height: 1;
+	margin-block-end: 10px;
+}
+
+/* CSS for the section title */
+h2 {
+	font-size: 48px;
+	margin: 0;
+	font-family: 'Caveat', cursive;
+	text-transform: uppercase;
+	margin-block-start: 40px;
+	color: #000000;
+	text-shadow: 2px 2px #000000;
+	letter-spacing: 5px;
+}
+
+/* CSS for the paragraph text */
+p {
+	font-size: 24px;
+	margin: 20px 0;
+	line-height: 1.5;
+	color: #000;
+	text-shadow: 1px 1px #000000;
+	max-inline-size: 600px;
+	margin: auto;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+/* CSS for each section */
+.section {
+	padding: 100px 0;
+	block-size: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+/* CSS for even-numbered sections */
+.section:nth-child(even) {
+	background-color: #ffd1db;
+}
+
+/* CSS for the background video */
+.background {
+	position: fixed;
+	inset-block-start: 0;
+	inset-inline-start: 0;
+	inline-size: 100%;
+	block-size: 100%;
+	z-index: -1;
+	overflow: hidden;
+}
+
+.background iframe {
+	position: absolute;
+	inset-block-start: 0;
+	inset-inline-start: 0;
+	inline-size: 100%;
+	block-size: 100%;
+	filter: blur(2px);
+	z-index: -2;
+}
+
+/* CSS for the background overlay */
+.overlay {
+	position: absolute;
+	inset-block-start: 0;
+	inset-inline-start: 0;
+	inline-size: 80%;
+	block-size: 90%;
+	background-color: rgba(255, 255, 255, 0.2);
+	z-index: -1;
+}
+
+/* CSS for the button */
+button {
+	background-color: #ff80b3;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: background-color 0.3s;
+}
+
+/* CSS for button hover state */
+button:hover {
+	background-color: #ff4d4d;
+}
